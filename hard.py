@@ -10,6 +10,7 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+
 def sinus(x, eps):
     sum = 0
     n = 0
@@ -20,8 +21,8 @@ def sinus(x, eps):
             break
     return sum
 
+
 if __name__ == '__main__':
     x = float(input("Введите значение x: "))
     eps = float(input("Введите желаемую точность: "))
     print("Значение Sin(x) =", sinus(x, eps))
-    
